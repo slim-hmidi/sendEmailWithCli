@@ -7,7 +7,7 @@ module.exports = [
   {
     type: 'input',
     name: 'sender',
-    message: 'Enter sender email',
+    message: 'Enter sender email:',
     validate: (value) => {
       const pass = value.match(emailRegExp);
       if (pass) {
@@ -19,7 +19,7 @@ module.exports = [
   {
     type: 'input',
     name: 'receiver',
-    message: 'Enter receiver email',
+    message: 'Enter receiver email:',
     validate: (value) => {
       const pass = value.match(emailRegExp);
       if (pass) {
@@ -31,17 +31,17 @@ module.exports = [
   {
     type: 'input',
     name: 'subject',
-    message: 'Enter email subject',
+    message: 'Enter email subject:',
   },
   {
     type: 'input',
     name: 'emailBody',
-    message: 'Enter email body',
+    message: 'Enter email body:',
   },
   {
     type: 'input',
     name: 'attachment',
-    message: 'Enter the attachment file path (optional)',
+    message: 'Enter the attachment file path (optional):',
     validate: (value) => {
       if (value && !isExist(value)) {
         return 'Please enter a valid path for the attachement file';
