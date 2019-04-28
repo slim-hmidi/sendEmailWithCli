@@ -12,7 +12,10 @@ $ npm run send
 ? Enter the attachment file path (optional):
 Email sent without an attachement successfully:  <af08896a-8e14-6f09-3091-25831d4839ee@gmail.com>
 
+```
+
 if you want to add an attachement to your email, you need only put the complete file path
+```
 $ npm run send
 > send-email
 ? Enter sender email: user@example.com
@@ -21,6 +24,7 @@ $ npm run send
 ? Enter email body: Hello from sendEmailWithCli
 ? Enter the attachment file path (optional): ./attachements/attachement.txt
 Email sent with an attachement successfully:  <6b6803fe-79f4-3183-1555-3f777829f942@gmail.com>
+```
 
 ** Note **
 In order to send emails you have to change the user and password mentioned on the env/config.js by your gmail user and password:
