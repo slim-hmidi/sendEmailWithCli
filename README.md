@@ -36,6 +36,7 @@ options = {
 };
 
 ```
+After that you have to allow non secure apps to access gmail. Go to your email and change settings(https://myaccount.google.com/lesssecureapps?pli=1).
 
 # install npm packages 
 ```
