@@ -26,7 +26,8 @@ $ npm run send
 Email sent with an attachement successfully:  <6b6803fe-79f4-3183-1555-3f777829f942@gmail.com>
 ```
 
-** Note **
+**Note**
+
 In order to send emails you have to change the user and password mentioned on the env/config.js by your gmail user and password:
 ```
 options = {
